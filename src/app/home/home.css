@@ -1,0 +1,65 @@
+.home-container {
+    padding: 20px 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-image-container {
+    background-color: beige;
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.toolkit-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.toolkit-card {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-image {
+    height: 150px;
+    background: #eee;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #888;
+}
+
+.feature-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.feature-text {
+    flex: 1;
+}
+
+.feature-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.feature-image-placeholder {
+    flex: 1;
+    height: 300px;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
