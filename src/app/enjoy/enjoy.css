@@ -1,0 +1,66 @@
+.enjoy-page {
+  padding: 40px 10%;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.enjoy-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* Split Section Base Styles */
+.split-section {
+  display: flex;
+  min-height: 500px;
+  margin-bottom: 80px;
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.split-image {
+  flex: 1; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+.split-text {
+  flex: 1; 
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split-section.standard {
+  flex-direction: row;
+}
+
+.split-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.icon-list li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.1rem;
+}
+
+.icon-list i {
+  color: burlywood; 
+  font-size: 1.3rem;
+  width: 25px; 
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+.travel-page {
+  padding: 40px 10%;
+  line-height: 1.6;
+}
+
+.hero-travel {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.travel-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.text-block {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+  height: 400px;
+  background: #f0f0f0;
+  border: 1px solid burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #ccc;
+}
+
+.travel-img {
+  max-height: 400px;
+  max-width: auto;
+}
+
+.transport-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.transport-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.transport-card:hover {
+  transform: translateY(-5px);
+  border-color: #7fffd4; 
+}
+
+.transport-card i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.walkability-note {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0fffb; 
+  border-left: 5px solid #7fffd4;
+  border-radius: 4px;
+}

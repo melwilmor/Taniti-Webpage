@@ -1,0 +1,140 @@
+.eat-page {
+    padding: 40px 5%;
+}
+
+.hero-small {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px 0;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .restaurant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .restaurant-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.restaurant-card {
+    border: 1px solid burlywood;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-8px);
+    border-color: aquamarine;
+}
+
+.card-image-placeholder {
+    height: 200px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ccc;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.tag {
+    background: burlywood;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.card-footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #f9f9f9;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.filter-wrapper {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.filter-header {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.results-count {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.filter-pill {
+  background: white;
+  border: 1px solid #0a1128;
+  border-radius: 50px; 
+  padding: 8px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #0a1128;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.filter-pill:hover {
+  background-color: #f0f4f8;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: #0a1128;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.filter-bar {
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+}
+
+.filter-bar::-webkit-scrollbar {
+  display: none;
+}
