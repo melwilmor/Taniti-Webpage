@@ -9,7 +9,7 @@ import { Faqs } from './faqs/faqs';
 
 
 export const routes: Routes = [
-    { path: '', component: Home },
+    { path: '', component: Home, pathMatch: 'full' },
     { path: 'home', component: Home },
     { path: 'eat', component: Eat },
     { path: 'enjoy', component: Enjoy },
